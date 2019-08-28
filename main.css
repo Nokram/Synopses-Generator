@@ -1,1 +1,67 @@
+/* NE PAS TOUCHER CE CODE | DONT TOUCH THIS CODE */
 
+body {
+   font-family: sans-serif;
+   font-size: 0.92em;
+   margin: 1em 1em 1em 1em;
+   background-color: #E5FAF3;
+
+}
+
+p {
+   margin-bottom: 1em;
+   margin-top: 1em;
+   text-align: justify;
+}
+
+ol {
+   margin-left: 1em;
+   margin-bottom: 1em;
+}
+
+li {
+   margin-bottom: 0.5em;
+   font-size: 0.88em;
+}
+
+h1 {
+   font-size: 1.05em;
+   text-decoration: underline;
+   margin-bottom: 0.45em;
+}
+
+button {
+   background-color: #F5CF50;
+   display: block;
+   margin: auto;
+   padding: 0.5em 1em 0.5em 1em;
+   border-radius: 20px;
+   font-weight: bold;
+   font-size: 1.05em;
+   font-variant: small-caps;
+}
+
+#syn-fr,
+#syn-en {
+   font-weight: bold;
+}
+
+#general {
+   display: flex;
+}
+
+#side-fr {
+   width: 50%;
+   margin-right: 1em;
+}
+
+#side-en {
+   width: 50%;
+   margin-left: 1em;
+}
+
+#info-fr,
+#info-en {
+   margin-top: 0.1em;
+   font-style: italic;
+}
